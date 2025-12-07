@@ -19,7 +19,7 @@ client = Client("Dheeran-S/LAMP-PRo")
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://lamp-profinal.vercel.app/","http://localhost:3000"],  # In production, replace with your frontend URL
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
