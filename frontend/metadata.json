@@ -1,0 +1,5 @@
+{
+  "name": "LAMP-PRo Protein Classifier",
+  "description": "A bioinformatics tool to classify protein sequences into DNA-binding, RNA-binding, DRBP, or Neither using ESM2 embeddings.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,22 @@
+# Node / frontend
+node_modules/
+dist/
+build/
+.env.local
+.env
+.vscode/
+
+# Python / backend / hf-space
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+*.db
+
+# general
+.DS_Store
+.idea/
+
+hf-space/
+
