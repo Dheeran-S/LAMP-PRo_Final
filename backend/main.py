@@ -12,9 +12,8 @@ app = FastAPI()
 
 
 # Initialize the Hugging Face Gradio client once
-print("Initializing Hugging Face Gradio client...")
-HF_TOKEN="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"
-client = Client("Dheeran-S/LAMP-PRo", token=HF_TOKEN)
+# print("Initializing Hugging Face Gradio client...")
+client = Client("Dheeran-S/LAMP-PRo")
 
 
 # Enable CORS
@@ -32,7 +31,7 @@ class SequenceRequest(BaseModel):
 @app.post("/analyze")
 async def analyze_sequence(request: SequenceRequest):
     try:
-        print("Predict being called")
+        # print("Predict being called")
         # Call your Gradio Space API
         result = client.predict(
             sequence=request.sequence,
@@ -45,7 +44,7 @@ async def analyze_sequence(request: SequenceRequest):
         rna_score = result["probabilities"]["RBP"]
         neither_score = result["probabilities"]["Neither"]
         
-        print("returning values")
+        # print("returning values")
         return {
             "label": label,
             "dna_score": dna_score,
