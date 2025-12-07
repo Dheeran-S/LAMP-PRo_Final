@@ -39,11 +39,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
             
             <div className="h-6 w-px bg-slate-300 mx-2"></div>
 
-            <a href="#" className="text-slate-500 hover:text-science-600 flex items-center gap-1 text-sm font-medium px-3 py-2">
+            <a href="https://arxiv.org/abs/2509.24262" className="text-slate-500 hover:text-science-600 flex items-center gap-1 text-sm font-medium px-3 py-2">
               <FileText className="h-4 w-4" />
               <span>Paper</span>
             </a>
-            <a href="#" className="text-slate-500 hover:text-slate-900 px-3 py-2">
+            <a href="https://github.com/NimishaGhosh/LAMP-PRo" className="text-slate-500 hover:text-slate-900 px-3 py-2">
               <Github className="h-5 w-5" />
             </a>
           </div>
