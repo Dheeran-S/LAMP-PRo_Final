@@ -1,5 +1,5 @@
 import { PredictionResult, ClassLabel, VALID_AMINO_ACIDS } from '../types';
-const API_URL = 'http://localhost:8000/analyze';
+const API_URL = 'https://lamp-pro-backend-fast-api-service.onrender.com/analyze';
 const generateId = () => Math.random().toString(36).substr(2, 9);
 
 
