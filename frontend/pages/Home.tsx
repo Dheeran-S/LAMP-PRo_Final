@@ -55,8 +55,8 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
           />
           <FeatureCard 
             icon={<Upload className="h-6 w-6 text-science-500" />}
-            title="High-Throughput"
-            description="Process thousands of sequences efficiently via our optimized batch processing pipeline."
+            title="Exceptional Performance"
+            description="Achieves benchmark results with AUC up to 0.98 and 1-AURC up to 0.97 on independent test datasets."
           />
         </div>
       </div>
